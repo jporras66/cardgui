@@ -1,0 +1,11 @@
+Tools	
+========
+- JDK 1.6.x or above
+- Maven 
+
+Software Packages
+=================
+- utl-1.0.0.jar  		https://github.com/jporras66/utilities
+- cryptocard-1.0.0.jar 	https://github.com/jporras66/cryptocard
+
+	First you need to download an build both jar libs
