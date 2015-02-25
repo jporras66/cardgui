@@ -1,4 +1,4 @@
-package es.indarsoft.cardutl.xml;
+package com.indarsoft.cardutl.xml;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,11 +15,11 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import es.indarsoft.cardutl.beans.BinKey;
-import es.indarsoft.cardutl.beans.PinBlockKey;
-import es.indarsoft.cryptocard.symmetrickey.DesKeyException;
-import es.indarsoft.cryptocard.types.PinBlockFormatType;
-import es.indarsoft.cryptocard.types.PinValidationType;
+import com.indarsoft.cardutl.beans.BinKey;
+import com.indarsoft.cardutl.beans.PinBlockKey;
+import com.indarsoft.cryptocard.symmetrickey.DesKeyException;
+import com.indarsoft.cryptocard.types.PinBlockFormatType;
+import com.indarsoft.cryptocard.types.PinValidationType;
 
 public class LoadXmlKeys {
 	
@@ -252,7 +252,7 @@ public class LoadXmlKeys {
 	}
 	
 	/**
-	 * I take a es.indarsoft.cardutl.xml element and the tag name, look for the tag and get
+	 * I take a com.indarsoft.cardutl.xml element and the tag name, look for the tag and get
 	 * the text content 
 	 * i.e for <employee><name>John</name></employee> org.inds.cardutl.xml snippet if
 	 * the Element points to employee node and tagName is name I will return John  

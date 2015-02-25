@@ -1,24 +1,24 @@
-package es.indarsoft.cardutl.batch;
+package com.indarsoft.cardutl.batch;
 
 import org.apache.log4j.Logger;
+
+import com.indarsoft.cardutl.beans.BinKey;
+import com.indarsoft.cardutl.beans.PinBlockKey;
+import com.indarsoft.cardutl.beans.ProcessedCardData;
+import com.indarsoft.cardutl.card.ProcessCard;
+import com.indarsoft.cardutl.file.CardFile;
+import com.indarsoft.cardutl.xml.LoadXmlKeys;
+import com.indarsoft.cardutl.xml.XmlKeyData;
+import com.indarsoft.cryptocard.card.Card;
+import com.indarsoft.cryptocard.card.CardException;
+import com.indarsoft.cryptocard.types.PinValidationType;
+import com.indarsoft.utl.Utl;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.io.FileWriter;
-
-import es.indarsoft.cardutl.beans.BinKey;
-import es.indarsoft.cardutl.beans.PinBlockKey;
-import es.indarsoft.cardutl.beans.ProcessedCardData;
-import es.indarsoft.cardutl.card.ProcessCard;
-import es.indarsoft.cardutl.file.CardFile;
-import es.indarsoft.cardutl.xml.LoadXmlKeys;
-import es.indarsoft.cardutl.xml.XmlKeyData;
-import es.indarsoft.cryptocard.card.Card;
-import es.indarsoft.cryptocard.card.CardException;
-import es.indarsoft.cryptocard.types.PinValidationType;
-import es.indarsoft.utl.Utl;
 
 public class Main {
 

@@ -1,7 +1,7 @@
-package es.indarsoft.cardutl.beans;
+package com.indarsoft.cardutl.beans;
 
-import es.indarsoft.cryptocard.card.Card;
-import es.indarsoft.cryptocard.types.PinValidationType;
+import com.indarsoft.cryptocard.card.Card;
+import com.indarsoft.cryptocard.types.PinValidationType;
 
 public class ProcessedCardData {
 

@@ -1,13 +1,16 @@
-package es.indarsoft.cardutl.test;
+package com.indarsoft.cardutl.test;
 
 import static org.junit.Assert.*;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+
 import org.junit.Test;
-import es.indarsoft.cardutl.file.CardFile;
-import es.indarsoft.cryptocard.card.Card;
-import es.indarsoft.utl.Utl;
+
+import com.indarsoft.cardutl.file.CardFile;
+import com.indarsoft.cryptocard.card.Card;
+import com.indarsoft.utl.Utl;
 
 public class CardFileTest {
 	

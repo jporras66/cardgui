@@ -1,8 +1,8 @@
-package es.indarsoft.cardutl.beans;
+package com.indarsoft.cardutl.beans;
 
-import es.indarsoft.cryptocard.symmetrickey.DesKeyException;
-import es.indarsoft.cryptocard.symmetrickey.Zpk;
-import es.indarsoft.cryptocard.types.PinBlockFormatType;
+import com.indarsoft.cryptocard.symmetrickey.DesKeyException;
+import com.indarsoft.cryptocard.symmetrickey.Zpk;
+import com.indarsoft.cryptocard.types.PinBlockFormatType;
 
 public class PinBlockKey  {
 

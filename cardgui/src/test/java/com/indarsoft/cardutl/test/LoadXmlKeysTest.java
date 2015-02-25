@@ -1,17 +1,21 @@
-package es.indarsoft.cardutl.test;
+package com.indarsoft.cardutl.test;
 
 import static org.junit.Assert.*;
+
 import org.apache.log4j.Logger;
+
 import java.io.File;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
-import es.indarsoft.cardutl.beans.BinKey;
-import es.indarsoft.cardutl.beans.PinBlockKey;
-import es.indarsoft.cardutl.xml.LoadXmlKeys;
-import es.indarsoft.cardutl.xml.XmlKeyData;
-import es.indarsoft.cryptocard.types.PinBlockFormatType;
-import es.indarsoft.cryptocard.types.PinValidationType;
-import es.indarsoft.utl.Utl;
+
+import com.indarsoft.cardutl.beans.BinKey;
+import com.indarsoft.cardutl.beans.PinBlockKey;
+import com.indarsoft.cardutl.xml.LoadXmlKeys;
+import com.indarsoft.cardutl.xml.XmlKeyData;
+import com.indarsoft.cryptocard.types.PinBlockFormatType;
+import com.indarsoft.cryptocard.types.PinValidationType;
+import com.indarsoft.utl.Utl;
 
 
 public class LoadXmlKeysTest {

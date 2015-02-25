@@ -1,16 +1,16 @@
-package es.indarsoft.cardutl.file;
+package com.indarsoft.cardutl.file;
 
 import org.apache.log4j.Logger;
+
+import com.indarsoft.cryptocard.card.Card;
+import com.indarsoft.cryptocard.card.CardException;
+import com.indarsoft.cryptocard.types.PinBlockFormatType;
+import com.indarsoft.cryptocard.types.PinValidationType;
 
 import java.util.ArrayList;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
-
-import es.indarsoft.cryptocard.card.Card;
-import es.indarsoft.cryptocard.card.CardException;
-import es.indarsoft.cryptocard.types.PinBlockFormatType;
-import es.indarsoft.cryptocard.types.PinValidationType;
 
 public class CardFile {
 

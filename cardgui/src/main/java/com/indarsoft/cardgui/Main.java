@@ -1,4 +1,4 @@
-package es.indarsoft.cardgui;
+package com.indarsoft.cardgui;
 
 import org.eclipse.jface.window.*;
 import org.eclipse.swt.widgets.*;

@@ -1,9 +1,9 @@
-package es.indarsoft.cardutl.xml;
+package com.indarsoft.cardutl.xml;
 
 import java.util.Hashtable;
 
-import es.indarsoft.cardutl.beans.BinKey;
-import es.indarsoft.cardutl.beans.PinBlockKey;
+import com.indarsoft.cardutl.beans.BinKey;
+import com.indarsoft.cardutl.beans.PinBlockKey;
 
 public class XmlKeyData {
 	// Hashtable de PinBlocks Keys

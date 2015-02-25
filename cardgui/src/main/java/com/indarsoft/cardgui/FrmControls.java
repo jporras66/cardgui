@@ -1,4 +1,4 @@
-package es.indarsoft.cardgui;
+package com.indarsoft.cardgui;
 
 import java.util.ArrayList;
 

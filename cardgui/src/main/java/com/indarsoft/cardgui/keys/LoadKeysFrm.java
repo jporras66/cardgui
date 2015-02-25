@@ -1,15 +1,17 @@
-package es.indarsoft.cardgui.keys;
+package com.indarsoft.cardgui.keys;
 
 import java.io.File;
+
 import org.eclipse.swt.*;
 import org.eclipse.swt.widgets.*;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.wb.swt.SWTResourceManager;
-import es.indarsoft.cardutl.xml.LoadXmlKeys;
-import es.indarsoft.cardutl.xml.XmlKeyData;
-import es.indarsoft.utl.Utl;
+
+import com.indarsoft.cardutl.xml.LoadXmlKeys;
+import com.indarsoft.cardutl.xml.XmlKeyData;
+import com.indarsoft.utl.Utl;
 
 public class LoadKeysFrm extends Composite {
 
@@ -152,7 +154,7 @@ public class LoadKeysFrm extends Composite {
 	}
 
 	/*
-	 * Load Keys from XML es.indarsoft.cardutl.file in ./data/config DIR
+	 * Load Keys from XML com.indarsoft.cardutl.file in ./data/config DIR
 	 */
 
 	public void loadData(String binNumber, String pinBlockFormatType,
@@ -163,7 +165,7 @@ public class LoadKeysFrm extends Composite {
 	}
 
 	/*
-	 * Load Keys from XML es.indarsoft.cardutl.file in ./data/config DIR
+	 * Load Keys from XML com.indarsoft.cardutl.file in ./data/config DIR
 	 */
 
 	private XmlKeyData loadKeys(String xmlFile) {

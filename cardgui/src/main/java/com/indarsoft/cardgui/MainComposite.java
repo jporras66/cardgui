@@ -1,9 +1,9 @@
-package es.indarsoft.cardgui;
+package com.indarsoft.cardgui;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Composite;
 
-import es.indarsoft.cardgui.card.CardFrm;
+import com.indarsoft.cardgui.card.CardFrm;
 
 public class MainComposite extends Composite {
 

@@ -1,9 +1,9 @@
-package es.indarsoft.cardutl.beans;
+package com.indarsoft.cardutl.beans;
 
-import es.indarsoft.cryptocard.symmetrickey.DesKey;
-import es.indarsoft.cryptocard.symmetrickey.DesKeyException;
-import es.indarsoft.cryptocard.symmetrickey.Pvk;
-import es.indarsoft.cryptocard.types.PinValidationType;
+import com.indarsoft.cryptocard.symmetrickey.DesKey;
+import com.indarsoft.cryptocard.symmetrickey.DesKeyException;
+import com.indarsoft.cryptocard.symmetrickey.Pvk;
+import com.indarsoft.cryptocard.types.PinValidationType;
 
 public class BinKey {
 

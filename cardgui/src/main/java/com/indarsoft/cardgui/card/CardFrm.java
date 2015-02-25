@@ -1,4 +1,4 @@
-package es.indarsoft.cardgui.card;
+package com.indarsoft.cardgui.card;
 
 import java.io.File;
 
@@ -7,20 +7,21 @@ import org.eclipse.swt.widgets.*;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.wb.swt.SWTResourceManager;
-import es.indarsoft.cardgui.FrmControls;
-import es.indarsoft.cryptocard.card.Card;
-import es.indarsoft.cryptocard.card.CardException;
-import es.indarsoft.cryptocard.types.PinBlockFormatType;
-import es.indarsoft.cryptocard.types.PinValidationType;
-import es.indarsoft.cardgui.FrmAlert;
-import es.indarsoft.cardutl.beans.BinKey;
-import es.indarsoft.cardutl.beans.PinBlockKey;
-import es.indarsoft.cardutl.beans.ProcessedCardData;
-import es.indarsoft.cardutl.card.ProcessCard;
-import es.indarsoft.cardutl.xml.LoadXmlKeys;
-import es.indarsoft.cardutl.xml.XmlKeyData;
-import es.indarsoft.utl.Utl;
 import org.eclipse.swt.graphics.Rectangle;
+
+import com.indarsoft.cardgui.FrmAlert;
+import com.indarsoft.cardgui.FrmControls;
+import com.indarsoft.cardutl.beans.BinKey;
+import com.indarsoft.cardutl.beans.PinBlockKey;
+import com.indarsoft.cardutl.beans.ProcessedCardData;
+import com.indarsoft.cardutl.card.ProcessCard;
+import com.indarsoft.cardutl.xml.LoadXmlKeys;
+import com.indarsoft.cardutl.xml.XmlKeyData;
+import com.indarsoft.cryptocard.card.Card;
+import com.indarsoft.cryptocard.card.CardException;
+import com.indarsoft.cryptocard.types.PinBlockFormatType;
+import com.indarsoft.cryptocard.types.PinValidationType;
+import com.indarsoft.utl.Utl;
 
 public class CardFrm extends Composite {
 
@@ -520,7 +521,7 @@ public class CardFrm extends Composite {
 	}
 
 	/*
-	 * Load Keys from XML es.indarsoft.cardutl.file in ./data/config DIR
+	 * Load Keys from XML com.indarsoft.cardutl.file in ./data/config DIR
 	 */
 	private XmlKeyData loadKeys(String xmlFile) {
 

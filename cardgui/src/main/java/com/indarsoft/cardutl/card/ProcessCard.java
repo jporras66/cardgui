@@ -1,19 +1,19 @@
-package es.indarsoft.cardutl.card;
+package com.indarsoft.cardutl.card;
 
 import org.apache.log4j.Logger;
 
-import es.indarsoft.cardutl.beans.BinKey;
-import es.indarsoft.cardutl.beans.PinBlockKey;
-import es.indarsoft.cardutl.beans.ProcessedCardData;
-import es.indarsoft.cryptocard.card.Card;
-import es.indarsoft.cryptocard.cardverify.CardVerification;
-import es.indarsoft.cryptocard.customerverify.Ibm3624Offset;
-import es.indarsoft.cryptocard.customerverify.Pvv;
-import es.indarsoft.cryptocard.pinblock.PinBlock;
-import es.indarsoft.cryptocard.symmetrickey.Pvk;
-import es.indarsoft.cryptocard.symmetrickey.Zpk;
-import es.indarsoft.cryptocard.types.PinValidationType;
-import es.indarsoft.cryptocard.utl.PinValidationData;
+import com.indarsoft.cardutl.beans.BinKey;
+import com.indarsoft.cardutl.beans.PinBlockKey;
+import com.indarsoft.cardutl.beans.ProcessedCardData;
+import com.indarsoft.cryptocard.card.Card;
+import com.indarsoft.cryptocard.cardverify.CardVerification;
+import com.indarsoft.cryptocard.customerverify.Ibm3624Offset;
+import com.indarsoft.cryptocard.customerverify.Pvv;
+import com.indarsoft.cryptocard.pinblock.PinBlock;
+import com.indarsoft.cryptocard.symmetrickey.Pvk;
+import com.indarsoft.cryptocard.symmetrickey.Zpk;
+import com.indarsoft.cryptocard.types.PinValidationType;
+import com.indarsoft.cryptocard.utl.PinValidationData;
 
 public class ProcessCard {
 
