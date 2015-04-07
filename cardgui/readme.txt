@@ -1,7 +1,18 @@
 1. 	Cryptography for VISA/MASTERCAD card (and others).
 
 	PIN (PVV/IBM OFFSET), CVV, CVV2, ICVV, PINBLOCK (clear or encrypted)
-	JAVA JDK 1.7.0_65.
+	
+2. Verify your JDK	(version 1.7.0_65 or above) . Open a Command Line Window
+
+	C:>echo %JRE_HOME%
+	"C:\Program Files\Java\jre7"
+	
+	C:>java -version
+	java version "1.7.0_72"
+	Java(TM) SE Runtime Environment (build 1.7.0_72-b14)
+	Java HotSpot(TM) Client VM (build 24.72-b04, mixed mode, sharing)
+		
+	Edit cardgui.bat and cardutl.bat and update variable : JRE_HOME
 		
 3. 	Edit key file .\data\config\key.xml 
 		
@@ -33,9 +44,9 @@
 		.\cardutl.bat <cards_filename> <key_filename> 
 	- Once finished, go to .\data and check .out file (and .\log\cryptocardutl.log for warnings and errors).
 
-5. 	Window utility
+5. 	GUI utility 
 	
- 	- Edit cardgui.bat and point JRE_HOME variable to your JRE (my JRE version is from jdk1.7.0_65) 
+ 	- Edit cardgui.bat and point JRE_HOME variable to your JRE 
 	- Execute cardgui.bat
 
 	

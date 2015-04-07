@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>cryptocardUtl</name>
-  <url>http://indarsoft.es</url>
+  <url>http://indarsoft.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
