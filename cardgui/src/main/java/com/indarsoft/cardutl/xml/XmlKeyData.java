@@ -7,9 +7,9 @@ import com.indarsoft.cardutl.beans.PinBlockKey;
 
 public class XmlKeyData {
 	// Hashtable de PinBlocks Keys
-	private Hashtable<String, PinBlockKey> 	ahpinBlockKey 	= new Hashtable<String, PinBlockKey>(100) ;
+	private Hashtable<String, PinBlockKey> 	ahpinBlockKey 	= new Hashtable<String, PinBlockKey>(500) ;
 	// Hashtable de BinNumber Keys
-	private Hashtable<String, BinKey> 		ahBinKey 		= new Hashtable<String, BinKey>(100) ; 
+	private Hashtable<String, BinKey> 		ahBinKey 		= new Hashtable<String, BinKey>(500) ; 
 	
 	public XmlKeyData() {
 
@@ -29,7 +29,9 @@ public class XmlKeyData {
 	}
 
 	public BinKey getBinKey( String binNumber ){
-		return (BinKey)  ahBinKey.get ( binNumber ) ;
+		BinKey b = ahBinKey.get ( binNumber ) ;
+		//return (BinKey)  ahBinKey.get ( binNumber ) ;
+		return b ;
 	}
 	
 	

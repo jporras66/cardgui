@@ -542,9 +542,13 @@ public class CardFrm extends Composite {
 		initializeData(NA);
 		//
 		String str = "";
-		if (xmlkeyData.getBinKey(binNumber).getPinValidationType()
-				.equals(PinValidationType.VISA_PVV)
-				&& btnVisaPvv.getSelection()) {
+		BinKey b = xmlkeyData.getBinKey(binNumber) ;
+		if ( b == null ){ // binNUmber not found
+			return ;
+		}
+		
+		if ( xmlkeyData.getBinKey(binNumber).getPinValidationType().equals(PinValidationType.VISA_PVV)
+			 && btnVisaPvv.getSelection()) {
 			str = xmlkeyData.getBinKey(binNumber).getPvk().getKeyAsString();
 			txtkeyPvk.setText(str);
 			str = Integer.toString(xmlkeyData.getBinKey(binNumber).getPvk()
