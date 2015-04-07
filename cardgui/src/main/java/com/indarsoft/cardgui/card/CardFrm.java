@@ -512,6 +512,7 @@ public class CardFrm extends Composite {
 
 		FrmControls frmcnt = new FrmControls(this.getParent());
 		frmcnt.clearFields();
+		btnfind.setEnabled(true);
 		btnVisaPvv.setSelection(true);
 		btnIbmOffset.setSelection(false);
 		btnIsopinblock0.setSelection(true);
@@ -544,7 +545,10 @@ public class CardFrm extends Composite {
 		String str = "";
 		BinKey b = xmlkeyData.getBinKey(binNumber) ;
 		if ( b == null ){ // binNUmber not found
+			btnfind.setEnabled(false);
 			return ;
+		}else{
+			btnfind.setEnabled(true);
 		}
 		
 		if ( xmlkeyData.getBinKey(binNumber).getPinValidationType().equals(PinValidationType.VISA_PVV)
