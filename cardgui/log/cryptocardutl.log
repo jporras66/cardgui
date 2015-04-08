@@ -1,1 +1,80 @@
 2015-04-07 17:50:33,985 main  ERROR com.indarsoft.cardutl.xml.LoadXmlKeys # pinValidationDataType not found for IBM_3624_OFFSET 
+2015-04-08 08:59:18,786 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 3
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 4
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 5
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:18,817 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 3
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 4
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 5
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 08:59:28,115 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:08:28,611 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:09:13,972 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:09:23,909 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:23,909 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:23,909 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:23,909 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:23,909 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:09:23,909 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:23,909 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:23,909 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 3
+2015-04-08 09:09:23,909 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:23,925 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:23,925 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 4
+2015-04-08 09:09:23,925 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:23,925 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:23,925 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 5
+2015-04-08 09:09:23,925 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:23,925 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 3
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 4
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 5
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pinValidationType in card is VISA_PVV does not match pinValidationType in binkey 520000-IBM_3624_OFFSET
+2015-04-08 09:09:34,330 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 5200000000000007 pin validation type : VISA_PVV does not match bin : IBM_3624_OFFSET
+2015-04-08 09:10:14,217 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:12:38,412 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:13:28,002 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:15:13,685 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:15:53,285 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:15:58,137 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:16:02,318 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:27:27,082 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:28:23,508 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:29:57,491 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:31:54,215 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:32:12,907 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2
+2015-04-08 09:32:39,394 main   WARN com.indarsoft.cardutl.card.ProcessCard # panNumber : 4000000000000002 pvki in Pvk 0123456789ABCDEF0123456789ABCDEF is : 1 does not match with pvki 2

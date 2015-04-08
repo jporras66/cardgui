@@ -7,6 +7,8 @@ import org.eclipse.swt.widgets.*;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.wb.swt.SWTResourceManager;
+import org.eclipse.swt.graphics.Color;
+import org.eclipse.swt.graphics.RGB;
 import org.eclipse.swt.graphics.Rectangle;
 
 import com.indarsoft.cardgui.FrmAlert;
@@ -68,8 +70,9 @@ public class CardFrm extends Composite {
 	private Text txtcardPvv;
 	private Text txtcarddki;
 	private Label lblPvvoffset;
-
-	//
+//
+	private boolean validKeys = false ;
+//
 	public CardFrm(Composite parent) {
 		super(parent, SWT.NONE);
 		setLayout(null);
@@ -399,7 +402,7 @@ public class CardFrm extends Composite {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
 
-				if (xmlkeyData != null) {
+				if (xmlkeyData != null)	{
 					String msg = validateCard();
 					if (!msg.equals("")) {
 						@SuppressWarnings("unused")
@@ -420,11 +423,19 @@ public class CardFrm extends Composite {
 				if (!msg.equals("")) {
 					@SuppressWarnings("unused")
 					FrmAlert alert = new FrmAlert(sh, msg);
-				} else if (xmlkeyData == null) {
+				}else if (xmlkeyData == null || !validKeys) {
 					@SuppressWarnings("unused")
-					FrmAlert alert = new FrmAlert(sh, "Please load key file !!");
+					FrmAlert alert = new FrmAlert(sh, "Please load a valid key file !!");
 				} else {
-					computeResult();
+					fillDataKeys(card.getPanNumber().substring(0, 6), card
+							.getPinBlockFormatType().toString(), xmlkeyData);
+					if ( validKeys ){
+						computeResult();
+					}/*else{
+						@SuppressWarnings("unused")						
+						FrmAlert alert = new FrmAlert(sh, "Please load a valid key file !!");
+					}*/
+					
 				}
 			}
 
@@ -512,13 +523,14 @@ public class CardFrm extends Composite {
 
 		FrmControls frmcnt = new FrmControls(this.getParent());
 		frmcnt.clearFields();
-		btnfind.setEnabled(true);
+//		btnfind.setEnabled(true);
 		btnVisaPvv.setSelection(true);
 		btnIbmOffset.setSelection(false);
 		btnIsopinblock0.setSelection(true);
 		btnIsopinblock3.setSelection(false);
 		lblrsmessage.setText("");
-		xmlkeyData = null;
+		//xmlkeyData = null;
+		validKeys = false ;
 	}
 
 	/*
@@ -536,19 +548,20 @@ public class CardFrm extends Composite {
 		return xmlkeyData;
 	}
 
-	private void fillDataKeys(String binNumber, String pinBlockFormatType,
-			XmlKeyData xmlkeyData) {
-
+	private void fillDataKeys(String binNumber, String pinBlockFormatType, XmlKeyData xmlkeyData) {
 		//
 		initializeData(NA);
 		//
 		String str = "";
 		BinKey b = xmlkeyData.getBinKey(binNumber) ;
 		if ( b == null ){ // binNUmber not found
-			btnfind.setEnabled(false);
+			//btnfind.setEnabled(false);
+			validKeys = false ;
+			@SuppressWarnings("unused")						
+			FrmAlert alert = new FrmAlert(sh, "Please load a valid key file !!");
 			return ;
 		}else{
-			btnfind.setEnabled(true);
+			//btnfind.setEnabled(true);
 		}
 		
 		if ( xmlkeyData.getBinKey(binNumber).getPinValidationType().equals(PinValidationType.VISA_PVV)
@@ -595,7 +608,10 @@ public class CardFrm extends Composite {
 		str = xmlkeyData.getPinBlock(pinBlockFormatType)
 				.getPinBlockFormatType().toString();
 		txtkeyPinblockFormat.setText(str);
-	}
+//
+		validKeys = true ;
+//		
+}
 
 	private void initializeData(String str) {
 
@@ -657,6 +673,8 @@ public class CardFrm extends Composite {
 						lblrsmessage.setText("Cannot find pin for dki  "
 								+ txtcarddki.getText()
 								+ " but found pin for dki  " + w + " !! ");
+						Color color= new Color(Display.getCurrent(),new RGB(0,0,255));
+						lblrsmessage.setForeground( color );
 						break;
 					}
 				} catch (CardException e) {
