@@ -5,7 +5,7 @@ REM     <cards_filename>  	data 			directory
 REM     <key_filename> 		data\config 	directory
 REM
 REM
-SET JRE_HOME="C:\Program Files\Java\jre7"
+SET JRE_HOME="C:\Java\jdk1.8.0_66"
 REM
 SET JRE=%JRE_HOME%
 SET PATH=%JRE%\bin;%PATH%
