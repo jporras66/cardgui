@@ -129,8 +129,7 @@ public class CardFrm extends Composite {
 
 		Label lblDki_2 = new Label(pinValidationType, SWT.NONE);
 		lblDki_2.setText("dki");
-		lblDki_2.setFont(SWTResourceManager
-				.getFont("Calibri", 10, SWT.NORMAL));
+		lblDki_2.setFont(SWTResourceManager.getFont("Calibri", 9, SWT.NORMAL));
 		lblDki_2.setBounds(new Rectangle(0, 0, 0, 16));
 		lblDki_2.setBounds(20, 40, 32, 17);
 
@@ -210,8 +209,7 @@ public class CardFrm extends Composite {
 		txtkeyPinlength.setBounds(350, 41, 36, 21);
 
 		Label lblNewLabel = new Label(groupkey, SWT.NONE);
-		lblNewLabel.setFont(SWTResourceManager.getFont("Calibri", 10,
-				SWT.NORMAL));
+		lblNewLabel.setFont(SWTResourceManager.getFont("Calibri", 9, SWT.NORMAL));
 		lblNewLabel.setBounds(20, 80, 203, 17);
 		lblNewLabel.setText("Cvk for cvv/icvv or cvc/icvc");
 
@@ -288,8 +286,7 @@ public class CardFrm extends Composite {
 		txtrspin.setBounds(12, 46, 68, 21);
 
 		Label lblDki_1 = new Label(result, SWT.NONE);
-		lblDki_1.setFont(SWTResourceManager
-				.getFont("Calibri", 10, SWT.NORMAL));
+		lblDki_1.setFont(SWTResourceManager.getFont("Calibri", 9, SWT.NORMAL));
 		lblDki_1.setBounds(new Rectangle(0, 0, 0, 16));
 		lblDki_1.setBounds(87, 25, 32, 17);
 		lblDki_1.setText("dki");
